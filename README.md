@@ -81,10 +81,11 @@ Automated Linux system administration tasks to reduce manual effort and improve 
 
 ```bash
 project-1-user-backup/
-│-- user_backup.sh      # Main shell script
-│-- README.md           # Documentation
-│-- /backup             # Backup directory (auto-generated)
-│-- /logs               # Log files (optional)
+│-- README.md          # Documentation
+│-- user_backup.sh     # Main shell script
+│-- .gitignore         # Ignore backups & logs
+│-- backup/            # Backup directory (auto-generated)
+│-- logs/              # Log files (auto-generated)
 ```
 
 ---
